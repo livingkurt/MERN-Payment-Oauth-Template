@@ -7,6 +7,14 @@
     "node": "8.1.1",
     "npm": "5.0.3"
   },
+  "proxy": {
+    "/auth/google": {
+      "target": "http://localhost:5000"
+    },
+    "/api/*": {
+      "target": "http://localhost:5000"
+    }
+  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
@@ -25,7 +33,10 @@
     "nodemon": "^2.0.2",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
+<<<<<<< HEAD
     "react-stripe-checkout": "^2.6.3",
+=======
+>>>>>>> 7927c19a9d9bc7e99cc9cbd37896f1fb15a028b8
     "save": "^2.4.0",
     "session": "^0.1.0"
   }
