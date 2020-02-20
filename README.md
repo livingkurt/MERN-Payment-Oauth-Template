@@ -1,1 +1,1 @@
-# React-Express-MongoDB-Payment-Oauth-Template
+# MERN-Payment-Oauth-Template
